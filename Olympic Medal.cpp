@@ -1,7 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std ;
-
-
+int  CalculateInnerRedis2(int A , int B ,double OuterRedis1,double p1,double p2)
+{
+    double Redis2= 0.0 ;
+    Redis2= sqrt((B*p1* pow(r1,2))/((A*p2)+(B*p1)));
+    return Redis2;
+}
 int main() {
 
     //P=m/v where v is volume , v= مساحة السطح*الارتفاع
